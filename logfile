@@ -1,0 +1,39 @@
+2020-01-30 14:17:59.824 AEDT [44286] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin19.2.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.16), 64-bit
+2020-01-30 14:17:59.828 AEDT [44286] LOG:  could not bind IPv6 address "::1": Address already in use
+2020-01-30 14:17:59.828 AEDT [44286] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2020-01-30 14:17:59.828 AEDT [44286] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2020-01-30 14:17:59.828 AEDT [44286] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2020-01-30 14:17:59.828 AEDT [44286] WARNING:  could not create listen socket for "localhost"
+2020-01-30 14:17:59.828 AEDT [44286] FATAL:  could not create any TCP/IP sockets
+2020-01-30 14:17:59.828 AEDT [44286] LOG:  database system is shut down
+2020-01-30 14:20:01.633 AEDT [45399] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin19.2.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.16), 64-bit
+2020-01-30 14:20:01.636 AEDT [45399] LOG:  listening on IPv6 address "::1", port 5432
+2020-01-30 14:20:01.636 AEDT [45399] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-01-30 14:20:01.637 AEDT [45399] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-01-30 14:20:01.658 AEDT [45405] LOG:  database system was shut down at 2020-01-30 14:17:48 AEDT
+2020-01-30 14:20:01.672 AEDT [45399] LOG:  database system is ready to accept connections
+2020-01-30 14:20:37.707 AEDT [45813] FATAL:  database "simjaeneung" does not exist
+2020-01-30 14:22:13.178 AEDT [46622] FATAL:  lock file "postmaster.pid" already exists
+2020-01-30 14:22:13.178 AEDT [46622] HINT:  Is another postmaster (PID 45399) running in data directory "/usr/local/var/postgres"?
+2020-01-30 14:22:21.444 AEDT [46718] FATAL:  lock file "postmaster.pid" already exists
+2020-01-30 14:22:21.444 AEDT [46718] HINT:  Is another postmaster (PID 45399) running in data directory "/usr/local/var/postgres"?
+2020-01-30 14:22:22.901 AEDT [46748] FATAL:  lock file "postmaster.pid" already exists
+2020-01-30 14:22:22.901 AEDT [46748] HINT:  Is another postmaster (PID 45399) running in data directory "/usr/local/var/postgres"?
+2020-01-30 14:22:59.693 AEDT [47210] FATAL:  lock file "postmaster.pid" already exists
+2020-01-30 14:22:59.693 AEDT [47210] HINT:  Is another postmaster (PID 45399) running in data directory "/usr/local/var/postgres"?
+2020-01-30 14:26:38.482 AEDT [45399] LOG:  received smart shutdown request
+2020-01-30 14:26:38.486 AEDT [45399] LOG:  background worker "logical replication launcher" (PID 45411) exited with exit code 1
+2020-01-30 14:26:38.486 AEDT [45406] LOG:  shutting down
+2020-01-30 14:26:38.491 AEDT [45399] LOG:  database system is shut down
+2020-01-30 14:27:10.966 AEDT [68875] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin19.2.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.16), 64-bit
+2020-01-30 14:27:10.973 AEDT [68875] LOG:  listening on IPv6 address "::1", port 5432
+2020-01-30 14:27:10.973 AEDT [68875] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-01-30 14:27:10.976 AEDT [68875] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-01-30 14:27:11.000 AEDT [68881] LOG:  database system was shut down at 2020-01-30 14:26:38 AEDT
+2020-01-30 14:27:11.015 AEDT [68875] LOG:  database system is ready to accept connections
+2020-01-30 14:29:03.657 AEDT [82788] FATAL:  database "simjaeneung" does not exist
+2020-01-30 14:35:43.988 AEDT [93452] FATAL:  database "simjaeneung" does not exist
+2020-01-30 14:43:03.310 AEDT [68875] LOG:  received smart shutdown request
+2020-01-30 14:43:03.313 AEDT [68875] LOG:  background worker "logical replication launcher" (PID 68888) exited with exit code 1
+2020-01-30 14:43:03.314 AEDT [68883] LOG:  shutting down
+2020-01-30 14:43:03.323 AEDT [68875] LOG:  database system is shut down

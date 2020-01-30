@@ -30,6 +30,8 @@
     "graphql-yoga": "^1.18.3",
     "helmet": "^3.21.2",
     "merge-graphql-schemas": "^1.7.6",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "pg": "^7.18.1",
+    "typeorm": "^0.2.22"
   }
 }
