@@ -7,7 +7,7 @@ Server for the Uber Clone. GraphQL, Typescript, NodeJS
 ### Public Resolvers:
 
 - [X] Sign In / Sign Up with Facebook
-- [ ] Sign In with Email
+- [X] Sign In with Email
 - [ ] Start Phone Number Verification
 - [ ] Complete Phone Number Verification
 - [ ] Sign Up with Email
