@@ -9,15 +9,20 @@ Server for the Uber Clone. GraphQL, Typescript, NodeJS
 - [X] Sign In / Sign Up with Facebook
 - [X] Sign In with Email
 - [X] Start Phone Number Verification
-- [ ] Complete Phone Number Verification
-- [ ] Sign Up with Email
+- [X] Complete Phone Number Verification
+- [X] Sign Up with Email
+
+---
+
+### Authentication:
+
+- [X] Generate JWT
+- [ ] Verify JWT
 
 ---
 
 ### Private Resolvers:
 
-- [ ] Generate JWT
-- [ ] Verify JWT
 - [ ] Get my Profile
 - [ ] Update my Profile
 - [ ] Toggle Driving Mode
