@@ -28,7 +28,7 @@ Server for the Uber Clone. GraphQL, Typescript, NodeJS
 - [X] Complete Email Verification
 - [X] Update my Profile
 - [X] Toggle Driving Mode
-- [ ] Report Location / Orientation
+- [X] Report Location / Orientation
 - [ ] Add Place
 - [ ] Edit Place
 - [ ] Delete Place
