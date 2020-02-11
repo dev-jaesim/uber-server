@@ -5,8 +5,17 @@ type ReportMovementResponse {
 
 type Mutation {
   ReportMovement(
-    orientation: Float
-    lat: Float
-    lng: Float
+  # original code starts
+  #   orientation: Float
+  #   lat: Float
+  #   lng: Float
+  # original code ends
+
+  # modified code from 1.67 starts for error fixing
+    lastOrientation: Float
+    lastLat: Float
+    lastLng: Float
+  # modified code ends for error fixing
   ): ReportMovementResponse!
+  
 }
