@@ -42,9 +42,9 @@ Server for the Uber Clone. GraphQL, Typescript, NodeJS
 - [X] Update Status
 - [X] Subscribe to Ride Status
 - [X] Create a Chat Room
-- [ ] Get Chat Room Messages
-- [ ] Subscribe to Chat Room Messages
-- [ ] Send a Chat Message
+- [X] Get Chat Room Messages
+- [X] Subscribe to Chat Room Messages
+- [X] Send a Chat Message
 
 - [ ] Get Ride History
 - [ ] See Ride Detail
