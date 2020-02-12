@@ -1,3 +1,31 @@
+# type User {
+#   id: Int!
+#   email: String
+#   verifiedEmail: Boolean!
+#   firstName: String!
+#   lastName: String!
+#   age: Int
+#   password: String
+#   phoneNumber: String
+#   verifiedPhoneNumber: Boolean!
+#   profilePhoto: String
+#   fullName: String
+#   isDriving: Boolean!
+#   isRiding: Boolean!
+#   isTaken: Boolean!
+#   lastLng: Float
+#   lastLat: Float
+#   lastOrientation: Float
+#   fbId: String
+#   chat: Chat
+#   messages: [Message]
+#   ridesAsPassenger: [Ride]
+#   ridesAsDriver: [Ride]
+#   places: [Place]
+#   createdAt: String!
+#   updatedAt: String
+# }
+
 type User {
   id: Int!
   email: String
@@ -17,7 +45,8 @@ type User {
   lastLat: Float
   lastOrientation: Float
   fbId: String
-  chat: Chat
+  chatsAsPassenger:[Chat]
+  chatsAsDriver: [Chat]
   messages: [Message]
   ridesAsPassenger: [Ride]
   ridesAsDriver: [Ride]
